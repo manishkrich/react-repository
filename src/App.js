@@ -13,9 +13,9 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route  path="/" element={<Home />}/>
-        <Route path="/all"  element={<AllUser />}  />
-        <Route path="/add" element={<AddUser />}   />
+        <Route  path="" element={<Home />}/>
+        <Route path="react-repository/all"  element={<AllUser />}  />
+        <Route path="react-repository/add" element={<AddUser />}   />
         <Route path="/edit/:id" element={<EditUser />}   />
       </Routes>
     </BrowserRouter>
